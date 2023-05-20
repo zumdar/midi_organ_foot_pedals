@@ -9,7 +9,7 @@ conversion of an old Wurlizter organ's foot pedals into a MIDI controller using 
 ## quick start guide
 
 * plug in the organ via USB-B cable into your computer. 
-* the microcontoller should show up as Teensy MIDI in your MIDI devices in your favorite DAW
+* the microcontoller should show up as "Teensy MIDI" in your MIDI devices in your favorite DAW
 
 ### technical info
 - the keyboard starts on MIDI NOTE 36, or C2. 
@@ -23,4 +23,3 @@ conversion of an old Wurlizter organ's foot pedals into a MIDI controller using 
 const int baseNote = 36; // C2 
 
 then upload the code to the microcontroller via the Aruino IDE, and Teensyduino. 
-# midi_organ_foot_pedals
